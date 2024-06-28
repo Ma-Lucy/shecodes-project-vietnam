@@ -59,6 +59,13 @@ main a {
   background-color: rgb(2, 29, 57);
   color: white;
 }
+main a:hover {
+  cursor: pointer;
+  color: #8f96f3;
+}
+header a:hover {
+  color: #5c64d5;
+}
 main h2 {
   font-weight: 600;
   font-size: 30px;
@@ -149,6 +156,9 @@ main img {
 .grid-footer {
   display: grid;
   grid-template-columns: 2fr 2fr 1fr;
+}
+.contact-us {
+  background-color: rgb(233, 229, 229);
 }
 .text-center {
   text-align: center;
